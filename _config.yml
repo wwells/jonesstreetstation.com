@@ -1,0 +1,9 @@
+name: Jones Street Station
+description: "Jones Street Station - A Musical Collective"
+markdown: rdiscount
+highlighter: pygments
+permalink: /:title/
+excerpt_separator: <!-- more -->
+exclude: [rtd.sublime-project, rtd.sublime-workspace, CNAME, Gruntfile.js, package.json, README.md]
+abs_url: http://jonesstreetstation.com
+url: http://jonesstreetstation.com
