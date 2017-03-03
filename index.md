@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /index/
+permalink: /
 title: Main
 tags: [jss, jones street station, collective, members]
 ---
