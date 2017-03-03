@@ -44,3 +44,11 @@ background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAAGQCAMA
   width: 100%;
   height: 100%;
 }
+
+.albumrow{
+  text-align:center;
+}
+.album{
+  display: inline-block;
+  margin: 20px;
+}
