@@ -1,7 +1,7 @@
 ---
 navigation:
-- text: Main
-  url: /main/
+- text: Music
+  url: /
 - text: Members
   url: /members/
 - text: Facebook
@@ -25,16 +25,16 @@ navigation:
   <body>
   
   <header role="banner" class="top-header">
-      <div>
-	<img src="/images/jssbanner.png">
-  	</div> 
+    <div>
+  	 <img src="/images/jssbanner.png">
+    </div> 
     <div class="container">
       <div class="grid">
         <div class="grid__col--50-fit">
           <nav role="navigation" class="rtd-nav">
             <a class="visually-hidden" href="#content">Skip to content</a>
             <ul>
-              <li><a href="/">Main</a></li>
+              <li><a href="/">Music</a></li>
               <li><a href="/members/">Members</a></li>
               <li><a href="https://www.facebook.com/JonesStStation/">Facebook</a></li>
             </ul>
@@ -47,9 +47,7 @@ navigation:
   <div class="master-content">
     <div class="container">
       <div class="grid">
-
           {{ content }}
-        
       </div>
     </div>
   </div>
@@ -71,7 +69,6 @@ navigation:
       <hr> 
       &copy; {{ site.time | date: '%Y' }} Jones Street Station. Powered by Jekyll using the <a href=" https://github.com/catalinred/catalinred.github.com" target="_blank">CatalinRed</a> theme.
     </div>
-
   </footer>  
 
   <script src="/js/common.js"></script>
